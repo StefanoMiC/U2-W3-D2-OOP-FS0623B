@@ -60,4 +60,4 @@ console.log(myCat);
 
 console.log(Object.keys(myCat)); // metodo sul costruttore che ritorna un array con chiavi del nostro oggetto in forma di stringa
 console.log(Object.values(myCat)); // metodo sul costruttore che ritorna un array con valori del nostro oggetto
-console.log(Object.entries(myCat)); // metodo sul costruttore che ritorna un array con valori del nostro oggetto
+console.log(Object.entries(myCat)); // metodo sul costruttore che ritorna un array di sotto array con chiave/valore
