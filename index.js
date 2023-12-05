@@ -149,3 +149,14 @@ anotherCat.parentCat.name = "Mr. Skippy";
 
 console.log("ANOTHER CAT", anotherCat);
 console.log("MY CAT", myCat);
+
+// metodo nr3 con metodi di JSON per creare una DEEP COPY, una copia profonda
+
+const anotherCatToString = JSON.stringify(anotherCat);
+console.log(anotherCatToString);
+const parsedAnotherCat = JSON.parse(anotherCatToString); // clone di anotherCat
+console.log(parsedAnotherCat);
+
+// metodo nr4 - deep copy con structuredClone
+const deepCopyCat = structuredClone(anotherCat); // altro clone profondo
+console.log(deepCopyCat);
